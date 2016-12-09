@@ -69,6 +69,7 @@ git fetch --prune                                         # 获取所有原创�
 git pull origin master                                    # 获取远程分支master并merge到当前分支
 git mv README README2                                     # 重命名文件README为README2
 git reset --hard HEAD                                     # 将当前版本重置为HEAD（通常用于merge失败回退）
+git reset --hard dfb02e6e4f2f7b573337763e5c0013802e392818 # 回退到指定ID的某一版本
 git rebase
 git branch -d hotfixes/BJVEP933                           # 删除分支hotfixes/BJVEP933（本分支修改已合并到其他分支）
 git branch -D hotfixes/BJVEP933                           # 强制删除分支hotfixes/BJVEP933
