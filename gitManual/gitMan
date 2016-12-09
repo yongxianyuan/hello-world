@@ -1,4 +1,4 @@
-
+									git command manual
 
 ssh-keygen -t rsa -C yuan.yongxian@icloud.com
 ssh -T git@github.com
